@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/library/bootstrap-4.4.1-dist/css/bootstrap.css">
+</head>
+<body class="container mt-3">
+    <h1>Board Game</h1>
+    <div class="box mt-5">
+        <p class="mt-3"> Roll the Dice</p>
+        <div class="img">
+        <img src="120px-Dice-1.png"  id="dice1">
+        <img src="120px-Dice-2.png"  id="dice2">
+    </div>
+        <div id="roll" class="roll mt-4">
+            <p>Roll</p>
+        </div>
+        <div class="hr mt-3"></div>
+        <div class="player mt-2 ">
+        <p>player one     <div class="circle1 "></div></p>
+    </div>
+    <div class="player ">
+        <p>player two     <div class="circle2 "></div></p>
+    </div>
+    <div class="player  ">
+        <p>player three <div class="circle3 "></div></p>
+    </div>
+    <div class="player ">
+        <p>player four   <div class="circle4" ></div></p>
+    </div>
+    </div>
+
+    <div class="playground">
+      
+      
+   
+
+      <div id="akwat0">
+        <div class="player1 mb-2" id="player1"></div>
+        <div class="player2 mb-2" id="player2"></div>
+      <div class="player3 mb-2" id="player3"></div>
+      <div class="player4 mb-2"id="player4"></div>
+      </div>
+        <div id="akwat1" ></div>
+
+
+        <div id="akwat2"></div>
+        <div id="akwat3">3</div>
+        <div id="akwat4">4</div>
+        <div id="akwat5">5</div>
+        <div id="akwat6">6</div>
+        <div class="p1">
+        <div id="akwat7">7</div>
+        <div id="akwat8">8</div>
+        <div id="akwat9">9</div>
+        <div id="akwat10"> 10</div>
+       
+        </div>
+        <div id="akwat11">11</div>
+        <div id="akwat12">12</div>
+        <div id="akwat13"> 13</div>
+
+        <div id="akwat14">14</div>
+        <div id="akwat15">15</div>
+        <div id="akwat16"> 16</div>
+
+        <div class="p2">
+        <div id="akwat20">20</div>
+        <div id="akwat19">19</div>
+        <div id="akwat18">18</div>
+        <div id="akwat17"> 17</div>
+      </div>
+
+        <div class="p3">
+        <div id="akwat21">21</div>
+        
+        </div>
+        
+            <div id="akwat22">22</div>
+            
+
+
+    </div>
+
+
+<div class="alert" id="hidden-port1">
+    
+    <center>
+<h3>Please Enter Number of Player</h3>
+
+    <input type="text" size="20"  id="aa" required><br>
+    <span style="color: gray;">*maxinum 4 players</span><br><br>
+    <button type="submit"  onclick="close1()">Enter</button></center>
+
+</div>
+
+<div id="winner">
+<h3 id="string">Player Winner</h3>
+<div id="exit" onclick="exit()">Exit</div>
+<div id="playagain">Play Again</div>
+
+</div>
+
+<div class="turn" id="turn"">
+    <h1 id="cc" ></h1>
+</div>
+</body>
+
+<script src="assets/js/board.js"></script>
+<script type="text/javascript" src="assets/library/bootstrap-4.4.1-dist/js/popper.js"></script>
+<!-- boostrap jquery -->
+<script type="text/javascript" src="assets/library/bootstrap-4.4.1-dist/js/jquery.min.js"></script>
+<!-- boostrap js -->
+<script type="text/javascript" src="assets/library/bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+</html>
