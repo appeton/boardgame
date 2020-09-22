@@ -43,11 +43,11 @@ document.getElementById('dice2').src="120px-Dice-"+score2+".png";
 let Total=score1+score2;
 
 document.getElementById('turn').style.display="block";
-let d=i+1;
+// let d=i+1;
 
-let string1="Player "+d+" Turn";
+// let string1="Player "+d+" Turn";
 
-  document.getElementById('cc').textContent=string1;
+//   document.getElementById('cc').textContent=string1;
 
   
  
